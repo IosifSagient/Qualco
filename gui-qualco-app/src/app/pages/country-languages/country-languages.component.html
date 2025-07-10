@@ -1,0 +1,31 @@
+<mat-card class="language-card mat-elevation-z8">
+  <mat-card-header>
+    <div mat-card-avatar class="avatar-icon">
+      <mat-icon>language</mat-icon>
+    </div>
+    <mat-card-title>🗣 Languages Spoken</mat-card-title>
+    <mat-card-subtitle>
+      Spoken in Country ID: <strong>{{ countryId }}</strong>
+    </mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content *ngIf="languages.length > 0; else noLanguages">
+    <mat-list>
+      <mat-list-item *ngFor="let lang of languages" class="language-item">
+        <mat-icon matListIcon>translate</mat-icon>
+        <span class="language-text">{{ lang }}</span>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+
+  <ng-template #noLanguages>
+    <p class="no-languages">No languages found for this country.</p>
+  </ng-template>
+
+  <mat-card-actions align="end">
+    <button mat-raised-button color="accent" routerLink="/countries">
+      <mat-icon>arrow_back</mat-icon>
+      &nbsp;Back to Countries
+    </button>
+  </mat-card-actions>
+</mat-card>

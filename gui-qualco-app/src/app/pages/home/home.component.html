@@ -1,0 +1,56 @@
+<div class="container">
+  <mat-toolbar color="primary" class="mat-elevation-z6">
+    🌐 <span class="toolbar-title">Country Language App</span>
+  </mat-toolbar>
+
+  <div
+    class="menu"
+    style="margin-top: 3rem; display: flex; justify-content: center"
+  >
+    <mat-card
+      class="navigation-card mat-elevation-z8"
+      style="width: 400px; padding: 2rem"
+    >
+      <mat-card-title
+        style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem"
+      >
+        📌 Navigation
+      </mat-card-title>
+
+      <mat-nav-list>
+        <mat-list-item>
+          <button
+            mat-flat-button
+            color="accent"
+            routerLink="/countries"
+            style="width: 100%"
+          >
+            🌍 View Countries
+          </button>
+        </mat-list-item>
+
+        <mat-list-item>
+          <button
+            mat-flat-button
+            color="accent"
+            routerLink="/max-gdp-ratio"
+            style="width: 100%"
+          >
+            📈 Max GDP per Population
+          </button>
+        </mat-list-item>
+
+        <mat-list-item>
+          <button
+            mat-flat-button
+            color="accent"
+            routerLink="/filtered-stats"
+            style="width: 100%"
+          >
+            🔎 Filter Country Stats
+          </button>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-card>
+  </div>
+</div>

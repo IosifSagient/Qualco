@@ -1,0 +1,15 @@
+.toolbar-title {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.navigation-card {
+  transition: box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+mat-list-item button:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
