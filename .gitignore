@@ -1,0 +1,9 @@
+#JAVA
+/backend-qualco/target/
+/backend-qualco/.idea/
+/backend-qualco/qualco/.mvn/
+
+#Node/Angular
+/gui-qualco-app/node_modules/
+/gui-qualco-app/dist/
+/gui-qualco-app/.angular/
