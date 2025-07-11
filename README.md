@@ -1,6 +1,8 @@
 DISCLAIMER : Δυστυχως λογω δουλειας ξοδεψα μονο δυο απογευματα να την κανω. Δουλευουν ολες οι λειτουργειες απλα θα μπορουσα να κανω το κατι παραπανω εαν ειχα λιγο χρονο
 
-Είχα ένα θέμα με τη Lombok οπότε μπορεί να δείτε κάποια annotations κάπου, και constructorsή getters αλλού. 
+Είχα ένα θέμα με τη Lombok οπότε μπορεί να δείτε κάποια annotations κάπου, και constructors ή getters αλλού. 
+
+
 ✅ Project Overview
 Project Name: Qualco Country Statistics
 Tech Stack: Angular • Spring Boot • Material UI • MariaDB
